@@ -1,3 +1,19 @@
+# LEAP Umbrel packaging — archived
+
+Umbrel packaging and image/package publication now live in
+[QBitLeap/LEAP, under umbrel/](https://github.com/QBitLeap/LEAP/tree/main/umbrel),
+alongside the native macOS, Windows and Linux build workflows.
+
+The replacement build published a public immutable image and passed isolated
+Mainnet/Testnet4 integration and catalog-package checks:
+[verified replacement workflow](https://github.com/QBitLeap/LEAP/actions/runs/43612260123).
+The prior main-branch history was imported into LEAP without squashing. This
+repository preserves all its original history, branches and tags read-only.
+Existing published image digests and Cosmic app IDs/data paths are unchanged.
+No app reinstall, Core restart or index reset is required by this cleanup.
+
+## Historical documentation
+
 # LEAP for Umbrel
 
 Independent LEAP app source for umbrelOS 2.0 or newer. This is an amd64
